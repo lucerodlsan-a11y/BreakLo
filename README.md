@@ -38,3 +38,46 @@ El proyecto está desarrollado utilizando una arquitectura basada en el patrón 
 - **Vista:** interfaz web utilizada por agentes y administradores.
 - **Controlador:** procesa las solicitudes del usuario y coordina la lógica del sistema.
 - **Base de datos:** almacena la información de usuarios y solicitudes de break.
+
+  ---
+
+# Requerimientos
+
+## Software requerido
+
+Para ejecutar Breaklo es necesario contar con el siguiente software instalado:
+
+| Componente | Versión recomendada |
+|------------|---------------------|
+| Java | JDK 21 |
+| Maven | 3.9 o superior |
+| Spring Boot | 4.1.0 |
+| Git | Última versión |
+| IntelliJ IDEA | Community o Ultimate |
+| Navegador Web | Chrome, Edge o Firefox |
+
+## Servidor de aplicación
+
+Breaklo utiliza el servidor embebido Apache Tomcat proporcionado por Spring Boot, por lo que no es necesario instalar un servidor web adicional.
+
+## Base de datos
+
+Actualmente el proyecto utiliza una base de datos relacional para almacenar la información de usuarios y solicitudes de break. Durante el desarrollo puede utilizarse H2 Database y, para un ambiente de producción, PostgreSQL o MySQL.
+
+## Dependencias principales
+
+Las principales dependencias del proyecto son:
+
+- Spring Boot Starter Web
+- Spring Boot Starter Thymeleaf
+- Spring Boot Starter Data JPA
+- Spring Boot Starter Validation
+- Base de datos H2
+- Maven
+
+## Hardware recomendado
+
+- Procesador de dos núcleos o superior.
+- 4 GB de memoria RAM como mínimo.
+- 500 MB de espacio libre en disco.
+- Conexión a Internet para descargar dependencias.
