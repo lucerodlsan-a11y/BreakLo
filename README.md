@@ -43,10 +43,6 @@ El proyecto está desarrollado utilizando una arquitectura basada en el patrón 
 
 # Requerimientos
 
----
-
-# Requerimientos
-
 | Componente | Requerimiento |
 |------------|---------------|
 | Lenguaje | Java 17 |
